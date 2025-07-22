@@ -1,0 +1,287 @@
+.title {
+  width: 100%;
+  height: fit-content;
+  /* background-color: coral; */
+
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 50px;
+}
+.leftTitle {
+  width: 49%;
+  height: fit-content;
+  /* background-color: chartreuse; */
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+  padding-left: 5%;
+  padding-top: 30px;
+}
+.bigTitle {
+  font-size: 50px;
+  font-weight: bold;
+
+  letter-spacing: -0.5px;
+}
+.titleDiscription {
+  width: 100%;
+  padding-right: 30%;
+  /* background-color: lightblue; */
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: start;
+
+  font-size: 17px;
+
+  letter-spacing: -1px;
+  font-weight: lighter;
+
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.titleButtons {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+
+  /* background-color: blueviolet; */
+
+  gap: 5%;
+
+  margin-top: 40px;
+
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.titleButton {
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 5px;
+
+  border: 0px;
+
+  font-weight: normal;
+
+  letter-spacing: -0.2px;
+}
+.titleButton:hover {
+  background-color: rgb(232, 232, 238);
+}
+.titleImage {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+
+  border-radius: 50px;
+}
+.titleInputContainer {
+  display: flex;
+  flex-direction: row;
+}
+.titleInput {
+  width: 90%;
+  padding: 20px;
+
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+
+  margin-top: 15px;
+  background-color: rgb(232, 232, 238);
+
+  border: 0px;
+}
+.titleInput:hover {
+  background-color: white;
+}
+.titleInputButton {
+  width: 10%;
+  border: 0px;
+  margin-top: 15px;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(232, 232, 238);
+}
+.titleInputRecomendations {
+  width: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+
+  font-size: 15px;
+
+  align-items: center;
+
+  font-weight: bold;
+
+  letter-spacing: -1px;
+}
+.titleInputImageContainer {
+  width: 40px;
+  height: 40px;
+  background-color: palevioletred;
+
+  border-radius: 100px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.titleInputImage {
+  width: 20px;
+  height: 20px;
+  /* background-color: green; */
+
+  border-radius: 100px;
+}
+.InputRecomendationButton {
+  padding: 5px 15px;
+  border-radius: 20px;
+
+  font-family: monospace;
+
+  font-size: 13px;
+
+  background-color: white;
+
+  border: 1px solid rgb(228, 228, 231);
+  letter-spacing: -0.5px;
+}
+.InputRecomendationButton:hover {
+  background-color: rgb(232, 232, 238);
+}
+
+.rightTitle {
+  width: 59%;
+  height: fit-content;
+  /* background-color: aqua; */
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.videoContainer {
+  position: relative;
+}
+.titleVideo {
+  width: 615px;
+  height: 420px;
+
+  /* background-color: brown; */
+
+  border-radius: 20px;
+
+  object-fit: cover;
+}
+.pausePlayButton {
+  padding: 10px;
+  border-radius: 50px;
+  border: 0px;
+
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+
+  z-index: 5;
+}
+.videoButton {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  border-radius: 50px;
+}
+.searchWhite {
+  color: white;
+}
+@media screen and (max-width: 1260px) {
+  .rightTitle {
+    display: none;
+  }
+  .leftTitle {
+    width: 100%;
+
+    padding-right: 5%;
+    padding-left: 3%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .titleButtons {
+    justify-content: center;
+  }
+  .titleInputContainer {
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 585px) {
+  .titleButtons {
+    justify-content: center;
+  }
+  .tb1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 510px) {
+  .tb2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 440px) {
+  .tb3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 370px) {
+  .tb4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 270px) {
+  .tb5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .titleDiscription {
+    justify-content: center;
+    padding-right: 3%;
+  }
+  .leftTitle {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .bigTitle {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+  }
+}

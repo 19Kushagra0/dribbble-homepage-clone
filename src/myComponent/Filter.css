@@ -1,0 +1,169 @@
+.filter {
+  width: 100%;
+  height: fit-content;
+  /* background-color: blue; */
+  font-weight: normal;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 5%;
+  padding-left: 5%;
+
+  padding-bottom: 50px;
+}
+.filterTop {
+  display: none;
+}
+.filterDown {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filterLeft {
+  display: flex;
+  flex-direction: row;
+}
+.FollowingButton,
+.FilterButton {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 10px;
+  padding: 10px;
+
+  align-items: center;
+
+  border: 1px solid rgb(228, 228, 231);
+}
+.FilterButton {
+  border-radius: 50px;
+}
+.titleImage {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+
+  border-radius: 100px;
+}
+.filterCenter {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 5%;
+  justify-content: center;
+}
+.filterButtons {
+  padding: 10px;
+  border-radius: 20px;
+
+  border: 0px;
+  background-color: rgb(216, 216, 216);
+
+  font-weight: bold;
+
+  border: 1px solid rgb(228, 228, 231);
+}
+.filterButtons:hover {
+  background-color: rgb(216, 216, 216);
+
+  color: rgb(84, 84, 84);
+}
+.filterRight {
+}
+
+@media screen and (max-width: 1300px) {
+  .filter {
+    padding-left: 3%;
+  }
+  .fb1 {
+    display: none;
+  }
+  .fb2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .fb3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .fb4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .filter {
+    flex-direction: column;
+
+    gap: 25px;
+  }
+  .filterTop {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-between;
+  }
+  .filterLeft {
+    display: none;
+  }
+  .filterRight {
+    display: none;
+  }
+  .filterDown {
+    justify-content: center;
+
+    padding-left: 3%;
+  }
+  .fb2 {
+    display: flex;
+  }
+  .fb3 {
+    display: flex;
+  }
+  .fb4 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 865px) {
+  .fb2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 705px) {
+  .fb3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 580px) {
+  .fb4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 495px) {
+  .fb5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 405px) {
+  .fb6 {
+    display: none;
+  }
+}
+@media screen and (max-width: 290px) {
+  .fb7 {
+    display: none;
+  }
+}
+@media screen and (max-width: 290px) {
+  .fb7 {
+    display: none;
+  }
+}

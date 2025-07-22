@@ -1,0 +1,48 @@
+.filterContainer {
+  width: 100%;
+  height: 100px;
+  /* background-color: lightseagreen; */
+
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 5%;
+  padding-right: 5%;
+
+  margin-bottom: 50px;
+}
+.tagContainer {
+  width: 50%;
+  height: 100%;
+  /* background-color: blueviolet; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.colorContainer {
+  width: 50%;
+  height: 100%;
+  /* background-color: violet; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tagInput,
+.ColorInput {
+  width: 90%;
+  padding: 15px;
+  /* background-color: brown; */
+
+  border-radius: 10px;
+
+  border: 0px;
+
+  border: 1px solid rgb(216, 216, 216);
+}
+@media screen and (max-width: 1300px) {
+  .filterContainer {
+    padding-left: 3%;
+  }
+}
