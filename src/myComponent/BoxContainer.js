@@ -1,7 +1,19 @@
-import React from "react";
+// import React from "react";
+import React, { useEffect } from "react";
+
 import "./BoxContainer.css";
 
 export default function BoxContainer() {
+  useEffect(() => {
+    const video = document.querySelector(".boxImage");
+    if (video) {
+      setTimeout(() => {
+        video.play().catch((e) => {
+          console.warn("Video play blocked:", e);
+        });
+      }, 100);
+    }
+  }, []);
   return (
     <div className="boxContainer">
       <div className="box">
