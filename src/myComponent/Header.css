@@ -10,7 +10,7 @@
 .header,
 .fixedHeader {
   width: 100%;
-  background-color: white;
+  background-color: red;
 
   display: flex;
   flex-direction: row;

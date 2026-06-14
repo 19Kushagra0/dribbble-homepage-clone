@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Header.css";
 
 export default function Header() {
-  const [exploreModal, setExploreModal] = useState(true);
   return (
     <div className="header">
       <div className="leftHeader">

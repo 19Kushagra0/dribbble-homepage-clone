@@ -7,7 +7,7 @@ import Filter from "./myComponent/Filter";
 import FilterContainer from "./myComponent/FilterContainer";
 import BoxContainer from "./myComponent/BoxContainer";
 
-import { useState, useEffect } from "react"; // ✅ include useEffect
+import { useState, useEffect } from "react";
 
 function App() {
   const [showBox, setShowBox] = useState(false);
